@@ -1,0 +1,23 @@
+Page 1: Homepage
+
+Page 2: Login
+
+Page 3: Buy
+    Sort, Filter, Categories, Search
+
+Page 4: Sell/Exchange
+    1. Enter your game
+    2. If not logged in:
+        redirect (href) to login page
+    3. Enter price and details (Fetch rest from database)
+
+
+Page 5: Cart (Implement Later)
+    Redirect (href) to checkout
+
+Page 6: Checkout
+    Billing address
+    Shipping address
+    Payment options and details
+
+

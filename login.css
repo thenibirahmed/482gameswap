@@ -1,0 +1,101 @@
+* {
+    margin: center;
+    padding: 0;
+    background-color: #02300d;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Quicksand, sans-serif;
+   
+  }
+  
+  html {
+    font-size: 62.5%;   
+    min-height: 100%;
+  }
+  
+  body {
+    text-align: center;
+    min-height: 100%;
+}
+form {
+    display: inline-block;
+}
+
+  .login-form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 0;
+   
+  }
+  
+  .container.change .login-form {
+    right: 40rem;
+  }
+  
+  .login-form h1 {
+    font-size: 6rem;
+    color: #dc08a4;
+  }
+  
+  .social-media {
+    display: flex;
+  }
+  
+  .social-media i {
+    width: 4rem;
+    height: 4rem;
+    border: 0.1rem solid #777;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    font-size: 2rem;
+    color: #555;
+  }
+  
+  .logup-form p {
+    font-size: 1.8rem;
+    color: #dc08a4;
+    margin-bottom: 2rem;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    width: 28rem;
+    height: 5rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #ddd;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .login-form button {
+    width: 16rem;
+    height: 5rem;
+    background-color: #02300d;
+    border: none;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
+  

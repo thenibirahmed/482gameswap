@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GameSwap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <nav>
+      <ul>
+        <li><button onclick="window.location.href='google.com';">Buy</button></li>
+        <li><button onclick="window.location.href='google.com';">Sell</button></li>
+        <li><button onclick="window.location.href='google.com';">Exchange</button></li>
+        <form>
+          <input type="text" placeholder="Search...">
+          <button type="submit">Search</button>
+        </form>
+      </ul>
+      <div class="login">
+        <button > Login </button>
+
+      </div>
+    </nav>
+    
+    
+    <style>
+
+      div {
+        display:inline-block;
+        margin: auto;
+        padding: 5px;
+    }
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+
+  }
+  
+  /* Style the header */
+  header {
+			background-image: url('home.jpg');
+			background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+		
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(176, 208, 16);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Add this line */
+    outline: 5px solid orange; /* Add this line */
+  }
+
+  /* Create two columns/boxes that float next to each other */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: #23aa20;
+    padding: 0 20px;
+    
+    
+  }
+
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  article {
+    background-color: #f1f1f1;
+    float: left;
+    height: 300px;
+    padding: 20px;
+    width: 70%;
+  }
+
+  ection::after {
+        clear: both;
+        content: "";
+        display: table;
+      }
+
+      /* Style the footer */
+      footer {
+        background-color: #777;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+
+  /* Clear floats after the columns */
+  section::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav,
+    article {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 62px;
+    background: #ccc;
+    
+    
+    
+}
+
+.button {
+			background-color: white;
+			color: orange;
+			border: none;
+			padding: 10px;
+			border-radius: 5px;
+			margin-left: 10px;
+			cursor: pointer;
+		}
+
+  search-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 20px;
+      }
+
+      .search-container input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .search-container button {
+        padding: 6px 10px;
+        margin-top: 8px;
+        background: linear-gradient(to bottom, #ff8800 0%, #ff9900 100%);
+        font-size: 17px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.2s ease-in-out;
+      }
+
+      .search-container button:hover {
+        background: linear-gradient(to bottom, #ff9900 0%, #ff8800 100%);
+      }
+      nav button, 
+      nav input[type="text"],
+      nav input[type="submit"] {
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background: #FF6600;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-right: 10px; 
+        margin-bottom: 10px; 
+        white-space: nowrap;
+      }
+      .login {
+        background: #FF6600;
+        padding-right: 10px;
+
+      }
+
+      .login:hover {
+        background: #FF9933;
+      }
+
+      /* Style the search bar */
+      .search-form {
+        display: flex;
+        align-items: center;
+      }
+
+      .search-form input[type="text"] {
+        border: 2px solid #FF6600;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .search-form input[type="submit"] {
+        background: #FF6600;
+        margin-left: 10px;
+      }
+
+      
+      form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-left: 1000px;
+
+}
+
+nav button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to bottom, #ff8800 0%, #ff9900 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  transition: background 0.2s ease-in-out;
+}
+
+nav button:hover {
+  background: linear-gradient(to bottom, #ff9900 0%, #ff8800 100%);
+}
+
+li {
+            display: inline;
+            padding: 20px;
+        }
+
+
+</style>
+
+
+</head>
+<body>
+  <header>
+    <h1>GameSwap</h1>
+    <p>Number one game swapping platform in BD</p>
+    <p>Buy, Sell and Swap your games in an instant</p>
+  </header>h1
+
+  <section style="display: flex; flex-direction: row;">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="img1.webp" style="width:50%">
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="img2.webp" style="width:60%">
+      </div>
+  
+      <div class="mySlides fade">
+        <img src="img3.jpeg" style="width:60%">
+      </div>
+  
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+  
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+  </section>
+  
+  <footer>
+    <p>	&copy Copyright 2023 &copy GameSwap inc. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

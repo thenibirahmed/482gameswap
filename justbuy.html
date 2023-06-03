@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game Store - Buy Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="justbuy.css">
+<body>
+	<header>
+		<h1>Game Store</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Games</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="buy-container">
+		<div class="game-image">
+			<img src="https://img.freepik.com/free-vector/joystick-game-sport-technology_138676-2045.jpg?w=2000" alt="Game Image">
+		</div>
+		<div class="game-details">
+			<h2>Game Title</h2>
+			<p>Description of the game goes here.</p>
+			<p><strong>Price:</strong> $XX.XX</p>
+			<form action="#" method="post">
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+				<br><br>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br><br>
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+				<br><br>
+				<input type="submit" value="Buy Now">
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; 2023 Game Store. All rights reserved.</p>
+	</footer>
+</body>
+<header>
+	<div class="container">
+		<div class="logo">
+			<a href="#">Game Store</a>
+		</div>
+		<div class="search">
+			<form action="#" method="get">
+				<label for="search">Search for games:</label>
+				<input type="text" id="search" name="search" placeholder="Enter game title...">
+				<button type="submit">Search</button>
+			</form>
+		</div>
+	</div>
+</header>
+

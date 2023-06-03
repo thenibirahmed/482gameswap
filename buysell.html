@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sell/Exchange Page - Game Store</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<link rel="stylesheet" href="CSS/buysell.css">
+<body>
+	<div class="container">
+		<header>
+			<h1>Sell/Exchange Your Games</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<table>
+				<tr>
+					<th>Name:</th>
+					<td><input type="text" name="name" required></td>
+				</tr>
+				<tr>
+					<th>Email:</th>
+					<td><input type="email" name="email" required></td>
+				</tr>
+				<tr>
+					<th>Phone Number:</th>
+					<td><input type="tel" name="phone" required></td>
+				</tr>
+				<tr>
+					<th>Game Name:</th>
+					<td><input type="text" name="game" required></td>
+				</tr>
+				<tr>
+					<th>Platform:</th>
+					<td>
+						<select name="platform">
+							<option value="ps4">PlayStation 4</option>
+							<option value="ps5">PlayStation 5</option>
+							<option value="xboxone">Xbox One</option>
+							<option value="xboxseriesx">Xbox Series X</option>
+							<option value="switch">Nintendo Switch</option>
+							<option value="pc">PC</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>Condition:</th>
+					<td>
+						<select name="condition">
+							<option value="new">New</option>
+							<option value="like-new">Like New</option>
+							<option value="good">Good</option>
+							<option value="fair">Fair</option>
+							<option value="poor">Poor</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>Asking Price:</th>
+					<td><input type="number" name="price" required></td>
+				</tr>
+				<tr>
+					<th>Message:</th>
+					<td><textarea name="message"></textarea></td>
+				</tr>
+			</table>
+			<input type="submit" value="Submit">
+		</main>
+		<footer>
+			<p>&copy; Game Store 2023</p>
+		</footer>
+	</div>
+</body>
+</html>
